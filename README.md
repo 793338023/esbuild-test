@@ -3,6 +3,8 @@ esbuild 和 babel 、tsc 对标，但又没有他们成熟，而且目前主要�
 
 esbuild 更适合处理js内容
 
+esbuild 也可以处理其他文件类型的内容，比如css，txt，json等
+
 ## onResolve
 
 会对符合过滤或命名空间的路径进行路径处理，它的作用是返回路径内容如何让esbuild进行处理，比如改造路径，外部路径之类的
